@@ -1,0 +1,430 @@
+{
+  "version": "3.0.0",
+  "last_updated": "2026",
+  "disclaimer": "This legal information repository is for educational and public guidance only. Sourced from official statutes, Gazette publications, and regulatory circulars of the Republic of India, it does not constitute attorney-client legal advice.",
+  "categories": {
+    "criminal_offences": {
+      "id": "criminal_offences",
+      "name": "Criminal Offences, Robbery & Physical Assault",
+      "kannada_name": "ಅಪರಾಧ ಕೃತ್ಯಗಳು, ದರೋಡೆ ಮತ್ತು ದೈಹಿಕ ಹಲ್ಲೆ",
+      "hindi_name": "आपराधिक अपराध, डकैती एवं शारीरिक हमला",
+      "classification": "Cognizable Criminal Offences (BNS & BNSS, 2023)",
+      "urgency_level": "RED",
+      "urgency_reason": "Immediate physical safety, emergency medical examination (MLC), and prompt FIR registration under BNSS are critical to prevent loss of evidence and protect victim rights.",
+      "emergency_contacts": [
+        {
+          "name": "All-India Police & Emergency Services",
+          "number": "112",
+          "available": "24x7",
+          "details": "Immediate police dispatch, ambulance assistance, and crime scene protection."
+        },
+        {
+          "name": "NALSA Free Legal Aid Helpline",
+          "number": "15100",
+          "available": "24x7",
+          "details": "Free legal aid counsel, victim advocacy, and DLSA representation under Legal Services Authorities Act, 1987."
+        },
+        {
+          "name": "National Health Helpline / Ambulance",
+          "number": "108",
+          "available": "24x7",
+          "details": "Emergency trauma transport to nearest government hospital for Medico-Legal Care (MLC)."
+        }
+      ],
+      "provisions": [
+        {
+          "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 390/392)",
+          "section": "Section 309(4) & 309(6)",
+          "title": "Robbery and Causing Hurt in Committing Robbery",
+          "description": "Theft is robbery if in order to the committing of theft or in carrying away stolen property, the offender voluntarily causes or attempts to cause death, hurt, or wrongful restraint. Punishable with rigorous imprisonment up to 10 or 14 years.",
+          "simple_explanation": "When theft of gold, cash, or valuables is accompanied by physical attack, threats, or injury, it legally constitutes the grave offence of Robbery.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India (India Code)"
+        },
+        {
+          "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 324/326)",
+          "section": "Section 118(1) & 115(2)",
+          "title": "Voluntarily Causing Hurt or Grievous Hurt by Dangerous Weapons or Means",
+          "description": "Whoever voluntarily causes hurt or grievous hurt by any instrument for shooting, stabbing, or cutting (including knives, daggers, or sharp weapons), punishable with imprisonment up to 3 to 10 years and fine.",
+          "simple_explanation": "Attacking a victim with a knife, blade, or deadly weapon and inflicting physical injuries is a non-bailable, cognizable criminal offence.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India (India Code)"
+        },
+        {
+          "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 457)",
+          "section": "Section 331(4)",
+          "title": "Lurking House-Trespass or House-Breaking by Night",
+          "description": "Whoever commits lurking house-trespass or house-breaking by night with intent to commit an offence punishable with imprisonment, punishable with imprisonment up to 14 years and fine.",
+          "simple_explanation": "Unauthorized forcible entry into a home by night with intent to commit robbery or assault attracts severe statutory punishment.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India (India Code)"
+        },
+        {
+          "act": "Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly CrPC Section 154)",
+          "section": "Section 173",
+          "title": "Information in Cognizable Cases (Mandatory First Information Report - FIR)",
+          "description": "Every information relating to the commission of a cognizable offence shall be reduced to writing, signed by the informant, entered in book, and a copy given to informant immediately free of cost. Includes mandatory Zero FIR provision across any jurisdiction.",
+          "simple_explanation": "Police are legally mandated under BNSS Section 173 to register an FIR for cognizable offences (like robbery and knife assault) immediately, and provide a free signed copy to the victim.",
+          "verified": true,
+          "official_source": "Ministry of Home Affairs / India Code"
+        },
+        {
+          "act": "Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly CrPC Section 154(3) & 156(3))",
+          "section": "Section 173(3) & 175(3)",
+          "title": "Remedies when Police Station Refuses to Register FIR",
+          "description": "If officer in charge refuses to record information, the aggrieved person may send substance of information by registered post to Superintendent of Police (SP). If unaddressed, private application lies before Judicial Magistrate.",
+          "simple_explanation": "If the local police station hesitates or refuses an FIR, you have the statutory right to petition the District SP / DCP in writing or approach the Magistrate directly.",
+          "verified": true,
+          "official_source": "Ministry of Home Affairs / India Code"
+        },
+        {
+          "act": "Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly CrPC Section 357A)",
+          "section": "Section 396",
+          "title": "Victim Compensation Scheme",
+          "description": "State Government in co-ordination with Central Government shall prepare scheme for providing funds for purpose of compensation to victim or dependents who have suffered loss or injury.",
+          "simple_explanation": "Victims of violent crimes and severe physical injuries are entitled to statutory compensation from the District/State Legal Services Authority (DLSA/SLSA).",
+          "verified": true,
+          "official_source": "National Legal Services Authority (NALSA)"
+        }
+      ]
+    },
+    "cyber_fraud": {
+      "id": "cyber_fraud",
+      "name": "UPI & Cyber Financial Fraud",
+      "kannada_name": "ಯುಪಿಐ ಮತ್ತು ಸೈಬರ್ ವಂಚನೆ",
+      "hindi_name": "यूपीआई और साइबर वित्तीय धोखाधड़ी",
+      "classification": "Criminal & Regulatory (IT Act & Banking Law)",
+      "urgency_level": "RED",
+      "urgency_reason": "Golden Hour (first 2-24 hours) is critical to freeze fraudster beneficiary accounts before withdrawal.",
+      "emergency_contacts": [
+        {
+          "name": "National Cyber Crime Helpline",
+          "number": "1930",
+          "available": "24x7",
+          "details": "Immediate account freeze through Citizen Financial Cyber Fraud Reporting System (CFCFRMS)."
+        },
+        {
+          "name": "National Cyber Crime Reporting Portal",
+          "url": "https://cybercrime.gov.in",
+          "details": "Official MHA portal to file formal cyber complaints."
+        },
+        {
+          "name": "RBI Sachet Portal",
+          "url": "https://sachet.rbi.org.in",
+          "details": "For reporting unauthorized lending apps and illegal entities."
+        }
+      ],
+      "provisions": [
+        {
+          "act": "Information Technology Act, 2000",
+          "section": "Section 66D",
+          "title": "Cheating by personation by using computer resource",
+          "description": "Punishment for cheating by personating using computer or communication device with imprisonment up to 3 years and fine up to 1 lakh rupees.",
+          "simple_explanation": "Impersonating bank officials, lottery reps, or support agents via call, WhatsApp, or fake apps to steal money is a criminal offence.",
+          "verified": true,
+          "official_source": "MeitY / IT Act 2000"
+        },
+        {
+          "act": "Information Technology Act, 2000",
+          "section": "Section 66C",
+          "title": "Punishment for identity theft",
+          "description": "Dishonestly making use of electronic signature, password, or unique identification feature.",
+          "simple_explanation": "Stealing OTPs, UPI PINs, or banking credentials to make unauthorized transactions.",
+          "verified": true,
+          "official_source": "MeitY / IT Act 2000"
+        },
+        {
+          "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 420)",
+          "section": "Section 318(4)",
+          "title": "Cheating and dishonestly inducing delivery of property",
+          "description": "Cheating and dishonestly inducing delivery of property punishable with imprisonment up to 7 years and fine.",
+          "simple_explanation": "Financial fraud and cheating carries up to 7 years imprisonment under BNS 2023.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India"
+        },
+        {
+          "act": "Reserve Bank of India (RBI) Circular",
+          "section": "DBR.No.Leg.BC.78/09.07.005/2017-18",
+          "title": "Customer Protection – Limiting Liability in Unauthorized Electronic Banking",
+          "description": "Zero customer liability when unauthorized transaction occurs and customer notifies bank within three working days.",
+          "simple_explanation": "If reported within 3 days, bank cannot hold customer liable for third-party fraud breach.",
+          "verified": true,
+          "official_source": "Reserve Bank of India"
+        }
+      ]
+    },
+    "tenant_landlord": {
+      "id": "tenant_landlord",
+      "name": "Tenant & Landlord Disputes",
+      "kannada_name": "ಬಾಡಿಗೆದಾರ ಮತ್ತು ಮನೆ ಮಾಲೀಕರ ವಿವಾದಗಳು",
+      "hindi_name": "किरायेदार एवं मकान मालिक विवाद",
+      "classification": "Civil & Tenancy Regulatory Law",
+      "urgency_level": "YELLOW",
+      "urgency_reason": "Pre-litigation legal notice or DLSA mediation recommended before unlawful eviction or utility disconnection.",
+      "emergency_contacts": [
+        {
+          "name": "Emergency Police Services (Eviction/Threats)",
+          "number": "112",
+          "available": "24x7",
+          "details": "Call 112 if landlord locks you out, threatens physical violence, or forcibly cuts water/power."
+        },
+        {
+          "name": "NALSA Legal Aid Helpline",
+          "number": "15100",
+          "available": "24x7",
+          "details": "Free legal representation and mediation through District Legal Services Authority (DLSA)."
+        }
+      ],
+      "provisions": [
+        {
+          "act": "Model Tenancy Act, 2021",
+          "section": "Section 11",
+          "title": "Security Deposit and Return",
+          "description": "Security deposit for residential premises must not exceed two months' rent, to be refunded on vacating.",
+          "simple_explanation": "Landlord cannot arbitrarily withhold security deposit after deducting agreed legitimate dues.",
+          "verified": true,
+          "official_source": "Ministry of Housing and Urban Affairs"
+        },
+        {
+          "act": "Model Tenancy Act, 2021",
+          "section": "Section 20 & 21",
+          "title": "Withholding Essential Supplies & Eviction",
+          "description": "Landlord cannot cut electricity, water, or access without authority. Eviction requires Rent Authority order.",
+          "simple_explanation": "Illegal disconnection of water/electricity or locking out a tenant without a court order is strictly prohibited.",
+          "verified": true,
+          "official_source": "Ministry of Housing and Urban Affairs"
+        },
+        {
+          "act": "Transfer of Property Act, 1882",
+          "section": "Section 106",
+          "title": "Duration of Certain Leases in Absence of Written Contract",
+          "description": "Lease of immovable property terminable on part of either lessor or lessee by 15 days' notice in writing.",
+          "simple_explanation": "Landlords must provide statutory written notice period before requiring a tenant to vacate.",
+          "verified": true,
+          "official_source": "Legislative Department, Ministry of Law and Justice"
+        },
+        {
+          "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 506)",
+          "section": "Section 351",
+          "title": "Criminal Intimidation",
+          "description": "Threatening injury to person, reputation, or property to cause alarm.",
+          "simple_explanation": "If landlord threatens bodily harm or trespasses unlawfully, criminal complaint can be lodged.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India"
+        }
+      ]
+    },
+    "consumer_complaint": {
+      "id": "consumer_complaint",
+      "name": "Consumer Complaints & Defective Goods/Services",
+      "kannada_name": "ಗ್ರಾಹಕರ ದೂರುಗಳು ಮತ್ತು ದೋಷಯುಕ್ತ ಸೇವೆಗಳು",
+      "hindi_name": "उपभोक्ता शिकायतें एवं दोषपूर्ण सामान/सेवाएं",
+      "classification": "Civil & Consumer Protection Law",
+      "urgency_level": "YELLOW",
+      "urgency_reason": "Statutory 2-year limitation period applies. Fast grievance filing via NCH 1915 secures quick refund.",
+      "emergency_contacts": [
+        {
+          "name": "National Consumer Helpline (NCH)",
+          "number": "1915",
+          "available": "08:00 AM to 08:00 PM",
+          "details": "Ministry of Consumer Affairs grievance redressal docket."
+        },
+        {
+          "name": "e-Daakhil Portal",
+          "url": "https://edaakhil.nic.in",
+          "details": "Official e-filing portal for District, State, and National Consumer Commissions."
+        }
+      ],
+      "provisions": [
+        {
+          "act": "Consumer Protection Act, 2019",
+          "section": "Section 2(7)",
+          "title": "Definition of Consumer",
+          "description": "Covers offline and online purchases across electronic commerce, direct selling, and retail.",
+          "simple_explanation": "You have full consumer rights whether bought from physical shops or platforms like Amazon, Flipkart, Swiggy, etc.",
+          "verified": true,
+          "official_source": "Consumer Protection Act 2019"
+        },
+        {
+          "act": "Consumer Protection Act, 2019",
+          "section": "Section 2(11) & Section 2(9)",
+          "title": "Deficiency in Service & Defect in Goods",
+          "description": "Shortcomings in performance, warranty breach, non-functional electronics, or cancelled unrefunded services.",
+          "simple_explanation": "Companies cannot sell defective goods or refuse replacements during warranty.",
+          "verified": true,
+          "official_source": "Consumer Protection Act 2019"
+        },
+        {
+          "act": "Consumer Protection Act, 2019",
+          "section": "Section 35",
+          "title": "Filing Complaint before District Commission",
+          "description": "Consumer can file at home district commission for claims up to ₹50 Lakhs without needing an advocate.",
+          "simple_explanation": "File complaints locally or online through e-Daakhil without paying heavy lawyer fees.",
+          "verified": true,
+          "official_source": "NCDRC"
+        }
+      ]
+    },
+    "employment_salary": {
+      "id": "employment_salary",
+      "name": "Employment & Unpaid Salary Disputes",
+      "kannada_name": "ಉದ್ಯೋಗ ಮತ್ತು ಬಾಕಿ ಸಂಬಳ ವಿವಾದಗಳು",
+      "hindi_name": "रोजगार एवं बकाया वेतन विवाद",
+      "classification": "Labor & Employment Law",
+      "urgency_level": "YELLOW",
+      "urgency_reason": "Statutory recovery of wages under Payment of Wages Act and State Shops & Establishments Act.",
+      "emergency_contacts": [
+        {
+          "name": "Shram Suvidha Portal",
+          "url": "https://shramsuvidha.gov.in",
+          "details": "Ministry of Labour & Employment unified portal for labor inspections and complaints."
+        },
+        {
+          "name": "NALSA Legal Aid Helpline",
+          "number": "15100",
+          "available": "24x7",
+          "details": "Free legal representation for workmen and contract workers."
+        }
+      ],
+      "provisions": [
+        {
+          "act": "Payment of Wages Act, 1936",
+          "section": "Section 15",
+          "title": "Claims arising out of deductions from wages or delay in payment",
+          "description": "Application to the Labour Authority for recovery of delayed or unlawfully deducted wages with compensation up to 10 times.",
+          "simple_explanation": "Employers cannot withhold earned wages without statutory cause. You can claim full salary plus penalty.",
+          "verified": true,
+          "official_source": "Ministry of Labour and Employment"
+        },
+        {
+          "act": "Industrial Disputes Act, 1947",
+          "section": "Section 2A & 25F",
+          "title": "Wrongful Dismissal & Retrenchment Procedure",
+          "description": "Mandatory notice period or wages in lieu thereof, retrenchment compensation before termination.",
+          "simple_explanation": "Sudden termination without notice pay or statutory compensation violates labor protections.",
+          "verified": true,
+          "official_source": "Ministry of Labour and Employment"
+        },
+        {
+          "act": "State Shops and Commercial Establishments Act",
+          "section": "Statutory Notice & Full and Final Settlement",
+          "title": "Clearance of Dues upon Resignation/Termination",
+          "description": "Full and final settlement including earned leaves and salary must be cleared within statutory period.",
+          "simple_explanation": "Companies must settle all dues, experience letters, and PF clearance within designated timeframes.",
+          "verified": true,
+          "official_source": "State Labour Departments"
+        }
+      ]
+    },
+    "property_disputes": {
+      "id": "property_disputes",
+      "name": "Property & Land Disputes",
+      "kannada_name": "ಆಸ್ತಿ ಮತ್ತು ಭೂಮಿ ವಿವಾದಗಳು",
+      "hindi_name": "ಕಾಮಾಗಾರಿ ಮತ್ತು ಭೂಮಿ ವಿವಾದಗಳು",
+      "classification": "Civil & Criminal Property Law",
+      "urgency_level": "YELLOW",
+      "urgency_reason": "Risk of illegal possession or fraudulent conveyance requires timely injunction or police complaint.",
+      "emergency_contacts": [
+        {
+          "name": "Police Control Room (Trespass/Assault)",
+          "number": "112",
+          "available": "24x7",
+          "details": "Call 112 immediately in case of armed trespass or boundary fence destruction."
+        },
+        {
+          "name": "Tele-Law / NALSA Free Legal Services",
+          "number": "15100",
+          "available": "24x7",
+          "details": "Pre-litigation property advice and revenue title inspection."
+        }
+      ],
+      "provisions": [
+        {
+          "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 441/447)",
+          "section": "Section 329",
+          "title": "Criminal Trespass",
+          "description": "Entering into or upon property in possession of another with intent to commit offence or intimidate.",
+          "simple_explanation": "Illegal encroachment, breaking locks, or forcibly entering private land without title is criminal trespass.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India"
+        },
+        {
+          "act": "Specific Relief Act, 1963",
+          "section": "Section 38 & 39",
+          "title": "Temporary and Perpetual Injunctions",
+          "description": "Court order restraining opposite party from interfering with peaceful possession of property.",
+          "simple_explanation": "Civil court can issue stay order/injunction to prevent demolition, construction, or illegal sale.",
+          "verified": true,
+          "official_source": "Legislative Department"
+        },
+        {
+          "act": "Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly CrPC 145)",
+          "section": "Section 164",
+          "title": "Procedure where dispute concerning land or water is likely to cause breach of peace",
+          "description": "Executive Magistrate jurisdiction to preserve possession and prevent violence over property boundaries.",
+          "simple_explanation": "Sub-Divisional Magistrate (SDM) can pass interim orders maintaining status quo to prevent clashes.",
+          "verified": true,
+          "official_source": "Ministry of Home Affairs"
+        }
+      ]
+    },
+    "family_domestic": {
+      "id": "family_domestic",
+      "name": "Family & Domestic Disputes",
+      "kannada_name": "ಕುಟುಂಬ ಮತ್ತು ಕೌಟುಂಬಿಕ ವಿವಾದಗಳು",
+      "hindi_name": "पारिवारिक एवं घरेलू विवाद",
+      "classification": "Civil, Family & Criminal Law",
+      "urgency_level": "RED",
+      "urgency_reason": "Immediate safety from physical harm, protection orders, or emergency maintenance.",
+      "emergency_contacts": [
+        {
+          "name": "National Women Helpline",
+          "number": "181",
+          "available": "24x7",
+          "details": "Emergency response, counseling, and shelter assistance for women facing abuse."
+        },
+        {
+          "name": "Emergency Police Services",
+          "number": "112",
+          "available": "24x7",
+          "details": "Immediate police intervention for domestic assault or dowry harassment."
+        },
+        {
+          "name": "NALSA Legal Aid Helpline",
+          "number": "15100",
+          "available": "24x7",
+          "details": "Free legal aid counsel for women, children, and matrimonial disputes."
+        }
+      ],
+      "provisions": [
+        {
+          "act": "Protection of Women from Domestic Violence Act, 2005",
+          "section": "Section 12, 18 & 19",
+          "title": "Application to Magistrate for Protection and Residence Orders",
+          "description": "Aggrieved person can obtain immediate protection orders restraining abuser and securing right to reside in shared household.",
+          "simple_explanation": "Court can order immediate stop to abuse, prevent eviction from family house, and grant monetary relief.",
+          "verified": true,
+          "official_source": "Ministry of Women and Child Development"
+        },
+        {
+          "act": "Bharatiya Nagarik Suraksha Sanhita, 2023 (formerly CrPC Section 125)",
+          "section": "Section 144",
+          "title": "Order for maintenance of wives, children and parents",
+          "description": "Magistrate order requiring person with sufficient means to pay monthly allowance for maintenance.",
+          "simple_explanation": "Wife, minor children, and senior parents can claim monthly maintenance support.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India"
+        },
+        {
+          "act": "Bharatiya Nyaya Sanhita, 2023 (formerly IPC Section 498A)",
+          "section": "Section 85 & 86",
+          "title": "Cruelty by husband or relatives of husband",
+          "description": "Subjecting a woman to cruelty or harassment for unlawful dowry demands.",
+          "simple_explanation": "Physical or mental cruelty, harassment, or dowry demands carry up to 3 years imprisonment.",
+          "verified": true,
+          "official_source": "Ministry of Law and Justice, Govt of India"
+        }
+      ]
+    }
+  }
+}

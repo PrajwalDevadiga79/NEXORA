@@ -1,0 +1,322 @@
+/* ==========================================================================
+   NyayaSathi - Premium Legal-Tech CSS Design System
+   Color Palette:
+   - Deep Navy Primary: #0F2942 / #1B365D
+   - Royal Secondary: #2A4365
+   - Subtle Gold Accent: #D4AF37 / #C5A059 / #9A7B2C
+   - Clean White/Light: #FFFFFF / #F8FAFC / #F1F5F9
+   - Border & Muted: #E2E8F0 / #64748B
+   ========================================================================== */
+
+/* Main App Container */
+.stApp {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Header & Banner Styles */
+.nyaya-banner {
+    background: linear-gradient(135deg, #0F2942 0%, #1A365D 60%, #2A4365 100%);
+    color: #FFFFFF;
+    padding: 2.2rem 2.4rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 25px -5px rgba(15, 41, 66, 0.25);
+    border-left: 6px solid #D4AF37;
+    position: relative;
+    overflow: hidden;
+}
+
+.nyaya-banner h1 {
+    color: #FFFFFF !important;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    letter-spacing: -0.5px;
+}
+
+.nyaya-banner p.tagline {
+    color: #E2E8F0;
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.nyaya-badge-hackathon {
+    display: inline-block;
+    background: rgba(212, 175, 55, 0.2);
+    color: #F8E7A2;
+    border: 1px solid #D4AF37;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* Modern Card Components */
+.nyaya-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.3rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    transition: all 0.2s ease-in-out;
+}
+
+.nyaya-card:hover {
+    box-shadow: 0 8px 25px rgba(15, 41, 66, 0.08);
+    border-color: #CBD5E1;
+}
+
+.nyaya-card-highlight {
+    border-left: 4px solid #D4AF37;
+}
+
+.nyaya-card-danger {
+    border-left: 4px solid #EF4444;
+    background: #FEF2F2;
+}
+
+.nyaya-card-success {
+    border-left: 4px solid #10B981;
+}
+
+/* Metric KPI Cards */
+.nyaya-stat-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+}
+
+.nyaya-stat-num {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0F2942;
+    line-height: 1.2;
+}
+
+.nyaya-stat-label {
+    font-size: 0.85rem;
+    color: #64748B;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+/* Status Badges */
+.badge-critical {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: inline-block;
+    border: 1px solid #FCA5A5;
+}
+
+.badge-moderate {
+    background-color: #FEF3C7;
+    color: #92400E;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    display: inline-block;
+    border: 1px solid #FCD34D;
+}
+
+.badge-verified {
+    background-color: #ECFDF5;
+    color: #065F46;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    border: 1px solid #A7F3D0;
+}
+
+.badge-gold {
+    background-color: #FFFBEB;
+    color: #854D0E;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border: 1px solid #FDE68A;
+}
+
+/* Step Action Cards */
+.action-step-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.action-step-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.action-step-num {
+    background: #0F2942;
+    color: #D4AF37;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.action-step-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #0F2942;
+}
+
+/* Legal Provision Box */
+.provision-box {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-top: 3px solid #0F2942;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.provision-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #0F2942;
+    margin-bottom: 4px;
+}
+
+.provision-statute {
+    background: #F8FAFC;
+    border-left: 3px solid #CBD5E1;
+    padding: 8px 12px;
+    font-size: 0.88rem;
+    color: #334155;
+    font-style: italic;
+    margin: 8px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.provision-meaning {
+    font-size: 0.92rem;
+    color: #1E293B;
+    background: #F0FDF4;
+    border: 1px solid #BBF7D0;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-top: 6px;
+}
+
+/* Disclaimer Banner */
+.legal-disclaimer {
+    background: #FFFBEB;
+    border: 1px solid #FDE68A;
+    border-left: 5px solid #D97706;
+    color: #92400E;
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    margin: 1.5rem 0;
+}
+
+/* Golden Hour Cyber Alert Banner */
+.golden-hour-alert {
+    background: linear-gradient(90deg, #7F1D1D 0%, #991B1B 100%);
+    color: #FFFFFF;
+    padding: 1.2rem 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 15px rgba(185, 28, 28, 0.3);
+    border: 1px solid #EF4444;
+}
+
+.golden-hour-alert h3 {
+    color: #FFFFFF !important;
+    margin: 0 0 4px 0;
+    font-size: 1.2rem;
+}
+
+/* Quick Action Category Card */
+.category-btn-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.category-btn-card:hover {
+    border-color: #0F2942;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(15, 41, 66, 0.08);
+}
+
+/* Sidebar styling tweaks */
+[data-testid="stSidebar"] {
+    background-color: #0F2942 !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #E2E8F0 !important;
+}
+
+[data-testid="stSidebar"] .stRadio label,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] span {
+    color: #F1F5F9 !important;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Streamlit Button Tweaks */
+div.stButton > button:first-child {
+    background-color: #0F2942;
+    color: #FFFFFF;
+    border: 1px solid #0F2942;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+div.stButton > button:first-child:hover {
+    background-color: #1A365D;
+    border-color: #D4AF37;
+    color: #FFFFFF;
+}
+
+/* Primary Button Modifier */
+div.stButton > button[kind="primary"] {
+    background: linear-gradient(135deg, #0F2942 0%, #1A365D 100%) !important;
+    border: 1px solid #D4AF37 !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 4px 12px rgba(15, 41, 66, 0.15);
+}
